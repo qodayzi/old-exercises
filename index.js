@@ -8,7 +8,7 @@ document.querySelector("#button").addEventListener("click",function(){
         let tip = bill * 20/100
         document.querySelector("#result").innerHTML = "Result: " + tip
     }else{
-        document.querySelector("#result").innerHTML = "Result: " + tip
+        document.querySelector("#result").innerHTML = "Result: " + bill
     }
 
 })
